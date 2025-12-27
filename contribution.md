@@ -17,6 +17,7 @@ Thanks to all the amazing people who have contributed to **AlumX's Backend Repos
 
 <!-- Add your Name (with GitHub username) below this line -->
 
+- Ankit Pal (@icyfire8)
 - Shaurya Raj Mallick(@Shaurpro)
 - Aditya Shirsatrao (@adityashirsatrao007)
 - Saumya Sood (@Marcella2706)
