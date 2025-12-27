@@ -1,0 +1,8 @@
+package com.opencode.alumxbackend.jobposts.service;
+
+import com.opencode.alumxbackend.jobposts.dto.JobPostRequest;
+import com.opencode.alumxbackend.jobposts.model.JobPost;
+
+public interface JobPostService {
+    JobPost createJobPost(JobPostRequest request);
+}
