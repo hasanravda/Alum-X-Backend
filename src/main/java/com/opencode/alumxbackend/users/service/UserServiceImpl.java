@@ -37,10 +37,10 @@ public class UserServiceImpl implements UserService {
             throw new BadRequestException("Invalid role. Must be STUDENT, ALUMNI, or PROFESSOR.");
         }
 
-//        // 3️⃣ Optional: validate email format, password length etc.
-//        if (!request.getEmail().matches("^[\\w-.]+@[\\w-]+\\.[a-z]{2,}$")) {
-//            throw new BadRequestException("Invalid email format: " + request.getEmail());
-//        }
+        // 3️⃣ Optional: validate email format, password length etc.
+        if (!request.getEmail().matches("^[\\w-.]+@[\\w-]+\\.[a-z]{2,}$")) {
+            throw new BadRequestException("Invalid email format: " + request.getEmail());
+        }
 
         if (request.getPassword().length() < 6) {
             throw new BadRequestException("Password must be at least 6 characters");
