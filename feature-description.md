@@ -27,3 +27,17 @@ It tells about the detials about the specified user. User has the fields - skill
 - It verifies wheter the user with that user id is present.
 - It reads the data, and responds with all the fields.
 - It returns empty list for a field, if field is null, or empty. 
+
+
+## User Service
+
+It handles everything about a user in the system. A user has fields like name, email, username, profile details, and role.  
+
+- It receives a request related to a user.
+- It checks whether the user exists in the system.
+- It allows creating a new user or updating existing user information.
+- It fetches all details of a user when requested.
+- If a field is missing, it returns an empty value for that field.
+
+
+
